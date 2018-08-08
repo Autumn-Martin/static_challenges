@@ -21,6 +21,7 @@ header h2 {
 header li {
   display: inline-block;
   text-align: right;
+  margin-right: 10px;
 }
 header ul {
   text-align: right;
