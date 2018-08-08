@@ -1,0 +1,10 @@
+header h1 {
+  background: rgb(171,22,20);
+  color: white;
+  height: 50px;
+  padding: 0 25px;
+}
+header h2 {
+  background: rgb(54,55,59);
+  /* display: inline-block; */
+}
