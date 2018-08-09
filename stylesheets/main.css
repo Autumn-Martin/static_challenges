@@ -70,11 +70,17 @@ header ul {
     margin-right: 1.5%;
 
 }
+.right-column div {
+  height: 100px;
+  width: 90%;
+  overflow: hidden;
+}
 .right-column img {
   border-bottom: 10px;
   height: 100px;
-  width: 90%;
+  /* width: 90%; */
 }
+
 
 /* Clear floats after the columns */
 .row:after {
