@@ -28,12 +28,12 @@ header ul {
   text-align: right;
   padding: 10px 10px;
 }
-#hero img {
+/* #hero img {
   border: 20px solid white;
   border-bottom: 10px;
   height: 220px;
   width: 90%;
-}
+} */
 
 #hero h1 {
   margin-left: 30px;
@@ -54,13 +54,25 @@ header ul {
 .left-column {
     float: left;
     width: 70%;
-    margin-right: 1%;
+    margin-right: 1.5%;
+}
+.left-column img {
+  border: 20px solid white;
+  border-bottom: 10px;
+  height: 220px;
+  width: 90%;
 }
 .right-column {
     float: left;
-    width: 29%;
+    width: 27%;
     margin-top: 10px;
+    margin-right: 1.5%;
 
+}
+.right-column img {
+  border-bottom: 10px;
+  height: 100px;
+  width: 90%;
 }
 
 /* Clear floats after the columns */
