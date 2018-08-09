@@ -9,7 +9,7 @@ body, html {
 header h1 {
   background-color: rgb(171,22,20); /* red */
   color: white;
-  /* height: 50px; */
+  font-weight: bold;
   padding: 10px 10px;
 }
 header h2 {
@@ -32,22 +32,23 @@ header ul {
   border: 20px solid white;
   border-bottom: 10px;
   height: 220px;
-  /* width: 440px; */
   width: 90%;
 }
 
 #hero h1 {
   margin-left: 30px;
   margin-bottom: 15px;
+  font-weight: bold;
 }
 #hero p {
-  /* display: inline-block; */
   line-height: 1.0;
   margin-left: 30px;
-  /* margin-right: 240px; */
   width: 88%;
   margin-bottom: 10px;
   font-size: 12px;
+}
+#hero h2 {
+  font-weight: bold;
 }
 
 .big-column {
@@ -58,6 +59,8 @@ header ul {
 .small-column {
     float: left;
     width: 29%;
+    margin-top: 10px;
+
 }
 
 /* Clear floats after the columns */
