@@ -26,15 +26,14 @@ header h2 {
   padding: 0% 3%;
   font-size: 14px;
 }
-header li {
-  display: inline-block;
-  text-align: right;
-  text-decoration: underline;
-  margin-right: 1%;
-}
 header ul {
   text-align: right;
   padding: 1% 1%;
+}
+header li {
+  display: inline-block;
+  text-decoration: underline;
+  margin-right: 1%;
 }
 
 #hero h1 {
