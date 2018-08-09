@@ -32,7 +32,8 @@ header ul {
   border: 20px solid white;
   border-bottom: 10px;
   height: 220px;
-  width: 440px;
+  /* width: 440px; */
+  width: 90%;
 }
 
 #hero h1 {
@@ -40,17 +41,28 @@ header ul {
   margin-bottom: 15px;
 }
 #hero p {
-  display: inline-block;
+  /* display: inline-block; */
   line-height: 1.0;
   margin-left: 30px;
-  margin-right: 240px;
+  /* margin-right: 240px; */
+  width: 88%;
   margin-bottom: 10px;
   font-size: 12px;
 }
-.three-row div {
-  height: 100px; width: 200px; overflow: hidden;
+
+.big-column {
+    float: left;
+    width: 70%;
+    margin-right: 1%;
 }
-.three-row img {
-  height: 100px;
-  display: inline-block;
+.small-column {
+    float: left;
+    width: 29%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
