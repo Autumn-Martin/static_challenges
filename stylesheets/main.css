@@ -28,3 +28,8 @@ header ul {
   text-align: right;
   padding: 10px 10px;
 }
+#hero img {
+  border: 20px solid white;
+  height: 220px;
+  width: 440px;
+}
