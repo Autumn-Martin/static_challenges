@@ -3,7 +3,7 @@ body {
 }
 body, html {
     height: 100%;
-    color: #777;
+    color: black;
     line-height: 1.8;
 }
 header h1 {
@@ -30,6 +30,20 @@ header ul {
 }
 #hero img {
   border: 20px solid white;
+  border-bottom: 10px;
   height: 220px;
   width: 440px;
+}
+
+#hero h1 {
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+#hero p {
+  display: inline-block;
+  line-height: 1.0;
+  margin-left: 30px;
+  margin-right: 240px;
+  margin-bottom: 10px;
+  font-size: 12px;
 }
