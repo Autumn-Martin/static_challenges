@@ -47,3 +47,10 @@ header ul {
   margin-bottom: 10px;
   font-size: 12px;
 }
+.three-row div {
+  height: 100px; width: 200px; overflow: hidden;
+}
+.three-row img {
+  height: 100px;
+  display: inline-block;
+}
