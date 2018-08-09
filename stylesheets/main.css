@@ -51,12 +51,12 @@ header ul {
   font-weight: bold;
 }
 
-.big-column {
+.left-column {
     float: left;
     width: 70%;
     margin-right: 1%;
 }
-.small-column {
+.right-column {
     float: left;
     width: 29%;
     margin-top: 10px;
